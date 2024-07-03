@@ -1,35 +1,148 @@
-<!doctype html>
-<html lang="pt-br>
-  <head>
-  <meta charset="utf-8>
-  <meta name="viewport" content="width-devie-width-initial scale=1.0">
-  <title>adryan gustavo e juliana lima</title>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skate Mania</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS externo -->
 </head>
-  <body>
-    <h1>Links das imagens</h1>
-    <a href="index.html">ir para pagina 1</a>
-    <ul type=disc>
-      <li>Raça de gatos<li>
-        <ul type=start1>
-          <li>Munchkin</li>
-          <a href="https://www.youtube.com/watch?v=_7WEjBdB_lc&pp=ygUOcmHDp2EgZGUgZ2F0b3M%3D">link</a>   
-    <ul type=smart3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_7WEjBdB_lc?si=nXDQrCBtYF5nBpi_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>link</a>   
-    <ul type=smart3>
-<li>scottish fold</li>
-<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailypaws.com%2Fcats-kittens%2Fcat-breeds%2Fscottish-fold&psig=AOvVaw3eDR1SNi6mwZweYOaIMbQY&ust=1717716432273000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDF_e3OxYYDFQAAAAAdAAAAABAE">link</a>   
-    <ul type=smart3>
-<ul type=smart1>
-<li>Siberiano</li>
-<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.treehugger.com%2Fbuying-a-siberian-cat-is-it-worth-it-4868743&psig=AOvVaw3eDR1SNi6mwZweYOaIMbQY&ust=1717716432273000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDF_e3OxYYDFQAAAAAdAAAAABAd">link</a>   
-    <ul type=smart3>
-  <ul type=smart2>
-  <li>azul russo</li>
-<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vetwest.com.au%2Fpet-library%2Frussian-blue%2F&psig=AOvVaw3eDR1SNi6mwZweYOaIMbQY&ust=1717716432273000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDF_e3OxYYDFQAAAAAdAAAAABAT">link</a>   
-    <ul type=smart3>
-     <li>curl americano</li>
-    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zooplus.co.uk%2Fmagazine%2Fcat%2Fcat-breeds%2Famerican-curl&psig=AOvVaw3eDR1SNi6mwZweYOaIMbQY&ust=1717716432273000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDF_e3OxYYDFQAAAAAdAAAAABAJ"></a>
-</ul>
+<body>
+    <header>
+        <div class="container">
+            <h1>Skate Mania</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Bem-vindo ao Skate Mania</h2>
+            <p>Descubra o mundo do skate e aprenda novas manobras.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>O Skate Mania é um site dedicado a tudo relacionado ao skate. Aqui você encontra notícias, tutoriais, vídeos e muito mais para os amantes do skate.</p>
+        </div>
+    </section>
+
+    <section id="videos">
+        <div class="container">
+            <h2>Vídeos de Skate</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tYNxjuCpzA8?si=oxJ0IwRm6d7H3Vli" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Skate Mania. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
 </body>
-  </html>
+</html>
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
     
